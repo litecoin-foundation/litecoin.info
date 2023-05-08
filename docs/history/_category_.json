@@ -1,0 +1,9 @@
+{
+    "label": "Historical Info",
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "Information regard Litecoin's developement history, including deprecated features can be found."
+    }
+  }
+  

@@ -2,46 +2,17 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro to Litecoin
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Litecoin is a digital currency, which enables instant, near-zero cost payments to anyone in the world. Built on an open source ethos. And powered by a fully decentralised global payment network. The network is secured by cryptography and empowers individuals to control their finances.
 
-## Getting Started
+## Differences between Bitcoin and Litecoin
 
-Get started by **creating a new site**.
+> “One of the goals of Litecoin is to not change what's working (from Bitcoin) unless there was a good reason to.” - [Charlie Lee](https://bitcointalk.org/index.php?topic=47417.msg564460#msg564460)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Litecoin shares a majority of its code with Bitcoin, with a large shared feature set. Notably features setting Litecoin apart from Bitcoin include:
+- 2.5 min transaction confirmation time
+- 84M max coins
+- Scrypt proof-of-work
+- MWEB privacy & fungibility
