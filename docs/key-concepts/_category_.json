@@ -3,7 +3,7 @@
     "position": 2,
     "link": {
       "type": "generated-index",
-      "description": "Key differences between Bitcoin and Litecoin. When converting a Bitcoin app to support Litecoin, typically the "
+      "description": "Key concepts, including features or constants which differ in Litecoin. The following articles can be extremely useful when forking a Bitcoin project to add support for Litecoin. References to the original definitions are also included for ease of use. Additional in depth technical explainations can also be found on the [Bitcoin Developer dev guide](https://developer.bitcoin.org/devguide/)."
     }
   }
   
