@@ -47,8 +47,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: '',
         logo: {
@@ -83,7 +81,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Litecoin Foundation. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Litecoin Foundation`,
       },
       prism: {
         theme: lightCodeTheme,
