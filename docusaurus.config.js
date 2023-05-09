@@ -10,12 +10,13 @@ const config = {
   tagline: 'The Litecoin Wiki aims to explain the technology behind the Litecoin Network.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://litecoin.info',
-  baseUrl: '/',
+  url: 'https://litecoin-foundation.github.io/',
+  baseUrl: '/litecoin.info',
   organizationName: 'litecoin-foundation',
   projectName: 'litecoin.info',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: false,
 
   i18n: {
     defaultLocale: 'en',
