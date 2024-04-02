@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklitecoin_info=self.webpackChunklitecoin_info||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"First Blog Post","permalink":"/litecoin.info/blog/first-blog-post"}]}')}}]);
