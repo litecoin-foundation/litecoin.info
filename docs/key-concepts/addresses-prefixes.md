@@ -39,7 +39,8 @@ Bech32 addresses do not have a version byte prefix, instead they use a human rea
 | Testnet MWEB   | `tltc1mweb` | 
 
 :::caution
-**NOTICE:** older versions of Litecoin Core (<0.15) did not have a unique prefix for P2SH addresses, as such they share the same prefixes as Bitcoin. For compatibility, later releases of Litecoin Core continue to include support for legacy prefixes, however wallet developers are advised not to continue using the legacy prefixes. 
+**NOTICE:** 
+older versions of Litecoin Core 0.15 and below did not have a unique prefix for P2SH addresses, as such they share the same prefixes as Bitcoin. For compatibility, later releases of Litecoin Core continue to include support for legacy prefixes, however wallet developers are advised not to continue using the legacy prefixes. 
 :::
 
 ### SLIP32

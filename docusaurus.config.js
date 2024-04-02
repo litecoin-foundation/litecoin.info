@@ -1,8 +1,4 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -10,8 +6,8 @@ const config = {
   tagline: 'The Litecoin Wiki aims to explain the technology behind the Litecoin Network.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://litecoin-foundation.github.io/',
-  baseUrl: '/litecoin.info',
+  url: 'https://litecoin.info/',
+  baseUrl: '/',
   organizationName: 'litecoin-foundation',
   projectName: 'litecoin.info',
   onBrokenLinks: 'throw',
@@ -85,8 +81,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Litecoin Foundation`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
     }),
 };
